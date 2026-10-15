@@ -60,7 +60,7 @@ Personal Ratings
 
 1. Clone this repo
 
-git clone https://github.com/YourUsername/BL-Drama-Recommendation-System.git
+git clone https://github.com/SaakshiJatav/BL-Drama-Recommendation-System.git
 cd BL-Drama-Recommendation-System
 
 
