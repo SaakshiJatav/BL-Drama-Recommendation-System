@@ -1,4 +1,5 @@
 import pandas as pd
+from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from fuzzywuzzy import process, fuzz
@@ -7,8 +8,7 @@ import streamlit as st
 # =========================
 # Load & Prepare Dataset
 # =========================
-df = pd.read_csv("BL_Drama_Recommendation.csv")
-
+df = pd.read_csv(Path(__file__).resolve().parent / "BL_Drama_Recommendation.csv")
 # Clean columns
 df.columns = df.columns.str.strip().str.replace(" ", "_").str.replace(r"[()]", "", regex=True)
 
