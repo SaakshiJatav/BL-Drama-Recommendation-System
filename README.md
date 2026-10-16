@@ -65,7 +65,7 @@ The project uses `BL_Drama_Recommendation.csv`, containing the following fields:
 
 ```bash
 git clone https://github.com/SaakshiJatav/BL-Drama-Recommendation-System.git
-cd BL-Drama-Recommendation-System
+cd BL-Drama-Recommendation-System/BL-Drama-Recommendation-System
 ```
 
 ### 2. Install Dependencies
